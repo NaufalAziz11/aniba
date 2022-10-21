@@ -8,7 +8,7 @@
                 <a class="px-2 text-decoration-none text-white" style="font-size: small">By Meir Adoni</a>
             </div>
             <img class="position-absolute mb-3" style="bottom: 0;left: 0" src="{{asset('images/foragers.png')}}" alt="">
-            
+            <button></button>
             {{-- <small>Scroll down. Menu appears to the right upon entering Section 1, and automatically highlights the
                 current section .<br>Clicking a menu item will auto scroll the screen to that section.</small> --}}
         </section>

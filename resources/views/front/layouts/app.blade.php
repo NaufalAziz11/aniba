@@ -115,6 +115,8 @@
             $(".logo-aniba").addClass("logo-aniba-scale");
             $(".logo-aniba").addClass("opacity-0");
             $(".logo-aniba").removeClass("opacity-100");
+            $(".navbar").addClass("add-bg-brown");
+
             
         } else {
             $(".navbar-center").removeClass("opacity-100");
@@ -124,30 +126,11 @@
             $(".logo-aniba").addClass("opacity-100");
             $(".logo-aniba").removeClass("opacity-0");
             $(".logo-aniba").removeClass("logo-aniba-scale");
-        }
-    });
-    $(window).scroll(function () {
-        if ($(window).scrollTop() > section_top+200) {
-            // $(".navbar-center").removeClass("opacity-0");
-            // $(".navbar-center").addClass("opacity-100");
-            // $(".navbar-center").addClass("logo-aniba-scale-1");
-            // $(".navbar-center").removeClass("logo-aniba-scale-2");
-            // $(".logo-aniba").addClass("logo-aniba-scale");
-            // $(".logo-aniba").addClass("opacity-0");
-            // $(".logo-aniba").removeClass("opacity-100");
-            $(".navbar").addClass("add-bg-brown");
-            
-        } else {
-            // $(".navbar-center").removeClass("opacity-100");
-            // $(".navbar-center").addClass("opacity-0");
-            // $(".navbar-center").addClass("logo-aniba-scale-2");
-            // $(".navbar-center").removeClass("logo-aniba-scale-1");
-            // $(".logo-aniba").addClass("opacity-100");
-            // $(".logo-aniba").removeClass("opacity-0");
-            // $(".logo-aniba").removeClass("logo-aniba-scale");
             $(".navbar").removeClass("add-bg-brown");
+
         }
     });
+
 
 
     var sidebarNavButton = document.querySelectorAll(".sidebarNavItem");
