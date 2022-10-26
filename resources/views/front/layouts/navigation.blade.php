@@ -1,8 +1,6 @@
 <div class="sidebarNav-star">
-    <a href="">
-        <img class="star-white opacity-1" style="z-index: 100" src="{{asset('images/star.png')}}" loading="lazy" alt="" class="nav__menu">
-        <img class="star-brown opacity-0" src="{{asset('images/star2.png')}}" loading="lazy" alt="" class="nav__menu">
-    </a>
+    <h5 class="text-white text-start our-story-text star-text opacity-0 ps-2" style="transition:.3s;"></h5>
+        <img class="star text-start" style="z-index: 100" src="{{asset('images/star.png')}}" loading="lazy" alt="" class="nav__menu" width="30">
     <!-- <img src="images/6148be436c5179b3ed2ea459-6148f26bb91223783bed27cb_arrow_downward_white_24dp.svg"
         loading="lazy" alt="" class="nav__menu"> -->
 </div>
