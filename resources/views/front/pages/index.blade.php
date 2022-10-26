@@ -9,12 +9,12 @@
         <div class="section2">
             @include('front.pages.section.section2')
         </div>
-        <div class="section3">
+        {{-- <div class="section3">
             @include('front.pages.section.section3')
         </div>
         <section class="section5" style="background:#fff;">
             <a class="navJump" style="height:100px;" name="section5" id="section5"></a>
             <h1>Section 5</h1>
-        </section>
+        </section> --}}
     </div>
 </x-app-layout>
